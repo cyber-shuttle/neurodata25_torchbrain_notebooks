@@ -3,3 +3,4 @@ pytorch_brain
 boto3
 matplotlib
 dandi>=0.61.2
+bokeh
