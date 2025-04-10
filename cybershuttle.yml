@@ -18,18 +18,20 @@ workspace:
     gpu_mem: 16384
     gpu_class: ["A40", "L40S", "RTX3090", "RTX4090"]
     min_mem: 4096
-    walltime: 60
-    cluster: expanse
-    group: Default
-    queue: shared
+  data_collection:
+    - source: cybershuttle
+      identifier: nerdslab-neurodata25
+      mount_point: /cybershuttle_data/nerdslab-neurodata25
+  model_collection: []
 
 additional_dependencies:
-  conda: []
-  pip:
+  conda:
     - python=3.10
+    - pip
+  pip:
     - temporaldata
     - pytorch_brain
     - boto3
     - matplotlib
-    - dandi>=0.61.2
     - bokeh
+    - dandi
