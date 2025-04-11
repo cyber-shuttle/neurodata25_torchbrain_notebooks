@@ -8,5 +8,8 @@ the following open-source Python packages:
 - [torch_brain](https://github.com/neuro-galaxy/torch_brain)
 
 
+Notebook on cybershuttle: 
+https://cybershuttle.org/resources/REPOSITORY/8bcf1b64-8838-4632-b3a7-959e70b28627
+
 Derived from notebooks in
 https://cosyne-tutorial-2025.github.io
