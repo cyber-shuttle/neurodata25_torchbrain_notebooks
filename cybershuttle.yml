@@ -35,3 +35,4 @@ additional_dependencies:
     - matplotlib
     - bokeh
     - dandi
+    - scikit-learn
