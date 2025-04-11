@@ -6,3 +6,7 @@ Georgia Tech. These are intended to understand and highlight the features of
 the following open-source Python packages:
 - [temporaldata](https://github.com/neuro-galaxy/temporaldata)
 - [torch_brain](https://github.com/neuro-galaxy/torch_brain)
+
+
+Derived from notebooks in
+https://cosyne-tutorial-2025.github.io
