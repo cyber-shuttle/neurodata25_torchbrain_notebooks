@@ -172,3 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+poyo_mp.ckpt
+sub-T_ses-CO-20130819_behavior+ecephys.nwb
