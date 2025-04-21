@@ -1,28 +1,29 @@
 project:
-  name: Deep Learning in Neuroscience with torch_brain and temporaldata
-  version: 1.0.0
-  description: This repository contains notebooks and configurations to understand and highlight the features of torch_brain and temporaldata
-  tags:
-    - neuroscience
-    - deep_learning
-    - libraries
-    - pytorch
-    - decoding
+  name: "Scaling up neural data analysis with torch_brain and temporaldata"
+  description: "Understand and highlight the features of torch_brain and temporaldata"
   homepage: https://github.com/nerdslab/neurodata25_torchbrain_notebooks
+  authors:
+    - Eva Dyer
+    - Vinam Arora
+    - Mahato Shivashriganesh
+  tags:
+    - neurodata25
+    - nerdslab
+    - torch_brain
+    - temporaldata
 
 workspace:
   location: /workspace
   resources:
     min_cpu: 8
     min_gpu: 0
-    gpu_mem: 16384
-    gpu_class: ["A40", "L40S", "RTX3090", "RTX4090"]
     min_mem: 4096
+    gpu_mem: 16384
+  model_collection: []
   data_collection:
     - source: cybershuttle
       identifier: nerdslab-neurodata25
       mount_point: /cybershuttle_data/nerdslab-neurodata25
-  model_collection: []
 
 additional_dependencies:
   conda:
