@@ -13,7 +13,6 @@ project:
     - temporaldata
 
 workspace:
-  location: /workspace
   resources:
     min_cpu: 8
     min_gpu: 0
@@ -26,6 +25,7 @@ workspace:
       mount_point: /cybershuttle_data/nerdslab-neurodata25
 
 additional_dependencies:
+  modules: []
   conda:
     - python=3.10
     - pip
